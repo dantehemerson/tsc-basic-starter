@@ -5,7 +5,9 @@
   "author": "Dante Calderon<mail@dantecalderon.dev>",
   "scripts": {
     "start": "nodemon",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
   },
   "devDependencies": {
     "@types/jest": "^25.1.4",
