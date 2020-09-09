@@ -1,8 +1,14 @@
-# tsc-simple-starter
+# Typescript Basic Starter
 
-Typescript Basic Template 
+### Features
 
-# Use
+* Prettier
+   - Automatic format on save in VsCode
+* TsLint as linter
+* Testing github workflow
+* Local development with nodemon
+
+### Usage
 
 ```
 git clone https://github.com/dantehemerson/tsc-simple-starter.git --depth=1 <project-name>
